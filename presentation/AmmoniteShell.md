@@ -15,6 +15,7 @@ date: October 2019
 
 # Shell Scripting
 
+
 # Bash Syntax
 
 # Bash vs. Scala
@@ -73,6 +74,14 @@ import ammonite.shell._
 ammonite.shell.Configure(interp, repl, wd)
 ```
 \normalsize
+
+# Directories
+```scala
+val wd = pwd
+cd! wd / up
+cd(wd/up)
+
+```
 
 # And now for something completely different: Colon Cancer
 * Screening saves lives! ![](graphics/Chemo.png){width=100px}

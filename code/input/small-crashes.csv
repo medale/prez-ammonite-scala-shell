@@ -1,0 +1,100 @@
+Year,Crash Descriptor,Time,Date,Day of Week,Police Report,Lighting Conditions,Municipality,Collision Type Descriptor,County Name,Road Descriptor,Weather Conditions,Traffic Control Device,Road Surface Conditions,DOT Reference Marker Location,Pedestrian Bicyclist Action,Event Descriptor,Number of Vehicles Involved
+2014,Injury Accident,5:35,06/18/2014,Wednesday,Y,Dawn,NEW YORK,OTHER,NEW YORK,Straight and Level,Clear,None,Dry,,"Crossing, No Signal or Crosswalk","Pedestrian, Collision With",1
+2014,Property Damage Accident,15:28,11/06/2014,Thursday,Y,Daylight,HENRIETTA,RIGHT ANGLE,MONROE,Straight and Level,Rain,None,Wet,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,15:27,03/19/2014,Wednesday,Y,Daylight,CICERO,OVERTAKING,ONONDAGA,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,4:03,06/23/2014,Monday,Y,Dark-Road Unlighted,COLESVILLE,OTHER,BROOME,Straight and Grade,Clear,None,Dry,88I91011017,Not Applicable,Deer,1
+2014,Property Damage Accident,15:28,09/27/2014,Saturday,Y,Daylight,HECTOR,OTHER,SCHUYLER,Straight and Level,Cloudy,None,Dry,79 63061019,Not Applicable,Deer,1
+2014,Property Damage Accident,18:01,02/12/2014,Wednesday,Y,Dark-Road Unlighted,PLATTSBURG,OTHER,CLINTON,Straight and Level,Clear,None,Dry,374 71021258,Not Applicable,Deer,1
+2014,Injury Accident,17:15,10/02/2014,Thursday,N,Unknown,QUEENS,OVERTAKING,QUEENS,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,8:28,09/22/2014,Monday,Y,Daylight,KINGS,REAR END,KINGS,Straight and Level,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,14:25,06/05/2014,Thursday,Y,Daylight,KINGSTON,OTHER,ULSTER,Straight and Grade,Clear,None,Dry,32 86022003,Not Applicable,"Animal, Collision With",1
+2014,Injury Accident,15:15,03/27/2014,Thursday,Y,Daylight,HUNTINGTON,Unknown,SUFFOLK,Straight and Level,Clear,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,14:30,12/26/2014,Friday,Y,Unknown,QUEENS,REAR END,QUEENS,Straight and Grade,Clear,Unknown,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,14:10,10/13/2014,Monday,Y,Daylight,QUEENS,OTHER,QUEENS,Straight and Level,Cloudy,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",3
+2014,Injury Accident,15:30,05/19/2014,Monday,Y,Daylight,KINGS,REAR END,KINGS,Straight and Level,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage & Injury Accident,16:35,02/14/2014,Friday,Y,Dusk,WAPPINGER,RIGHT ANGLE,DUTCHESS,Straight and Level,Clear,None,Wet,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,18:23,08/07/2014,Thursday,Y,Daylight,BUFFALO,Unknown,ERIE,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,21:30,01/14/2014,Tuesday,N,Dark-Road Unlighted,CAIRO,OTHER,GREENE,Curve and Level,Clear,None,Dry,,Not Applicable,Deer,1
+2014,Injury Accident,0:00,09/20/2014,Saturday,N,Unknown,KINGS,REAR END,KINGS,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage & Injury Accident,6:05,06/15/2014,Sunday,Y,Daylight,TONAWANDA,OVERTAKING,ERIE,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,1:30,06/16/2014,Monday,N,Dark-Road Unlighted,QUEENS,OVERTAKING,QUEENS,Straight and Level,Clear,Unknown,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,21:00,08/26/2014,Tuesday,Y,Dusk,KINGS,Unknown,KINGS,Straight and Level,Clear,Yield Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,15:42,11/23/2014,Sunday,Y,Daylight,ISLIP,LEFT TURN (3),SUFFOLK,Straight and Level,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,16:40,08/11/2014,Monday,Y,Daylight,BRUTUS,OTHER,CAYUGA,Curve and Level,Clear,None,Dry,,Not Applicable,"Other Object (Not Fixed)*, Collision With",1
+2014,Property Damage Accident,18:42,07/01/2014,Tuesday,Y,Daylight,GRAND ISLAND,RIGHT ANGLE,ERIE,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,18:40,07/22/2014,Tuesday,Y,Daylight,QUEENS,Unknown,QUEENS,Straight and Level,Clear,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,11:45,03/31/2014,Monday,N,Unknown,RIVERHEAD,Unknown,SUFFOLK,Unknown,Snow,Unknown,Snow/Ice,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,8:15,10/03/2014,Friday,Y,Daylight,BRONX,OTHER,BRONX,Straight and Level,Clear,Traffic Signal,Dry,,"Crossing, With Signal","Pedestrian, Collision With",1
+2014,Injury Accident,16:30,04/19/2014,Saturday,Y,Daylight,KINGS,OTHER,KINGS,Straight and Level,Clear,None,Dry,,"Crossing, No Signal or Crosswalk","Pedestrian, Collision With",1
+2014,Property Damage Accident,23:58,09/23/2014,Tuesday,Y,Dark-Road Unlighted,NEW PALTZ,OTHER,ULSTER,Straight and Level,Clear,No Passing Zone,Dry,32 86021150,Not Applicable,Deer,1
+2014,Property Damage Accident,19:05,10/03/2014,Friday,Y,Dark-Road Lighted,HEMPSTEAD,REAR END,NASSAU,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,6:00,06/21/2014,Saturday,Y,Daylight,CORNWALL,OTHER,ORANGE,Straight and Level,Clear,None,Dry,,Not Applicable,Deer,1
+2014,Property Damage & Injury Accident,13:40,07/26/2014,Saturday,Y,Daylight,ISLIP,OTHER,SUFFOLK,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",3
+2014,Property Damage Accident,19:27,05/04/2014,Sunday,Y,Dusk,KINGS,Unknown,KINGS,Straight and Level,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,15:29,06/04/2014,Wednesday,Y,Daylight,KINGS,REAR END,KINGS,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,22:13,05/25/2014,Sunday,Y,Dark-Road Unlighted,FAYETTE,OTHER,SENECA,Straight and Level,Clear,None,Dry,414 35041205,Not Applicable,Deer,1
+2014,Injury Accident,15:22,04/14/2014,Monday,Y,Daylight,YONKERS,LEFT TURN (3),WESTCHESTER,Straight and Level,Clear,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage & Injury Accident,16:15,01/29/2014,Wednesday,Y,Daylight,NORTH HEMPSTEAD,OTHER,NASSAU,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",3
+2014,Injury Accident,0:00,12/30/2014,Tuesday,N,Unknown,NEW YORK,Unknown,NEW YORK,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,14:48,09/04/2014,Thursday,Y,Daylight,SOUTHAMPTON,REAR END,SUFFOLK,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,15:05,06/26/2014,Thursday,Y,Daylight,OYSTER BAY,OTHER,NASSAU,Straight and Grade,Cloudy,None,Dry,,"Crossing, No Signal or Crosswalk","Bicyclist, Collision With",1
+2014,Injury Accident,20:23,01/17/2014,Friday,Y,Dark-Road Unlighted,FREEDOM,OTHER,CATTARAUGUS,Straight and Level,Clear,No Passing Zone,Dry,98 51011288,Not Applicable,Deer,1
+2014,Property Damage & Injury Accident,10:50,02/13/2014,Thursday,Y,Daylight,QUEENS,OTHER,QUEENS,Straight and Level,Snow,None,Snow/Ice,,Not Applicable,"Other Motor Vehicle, Collision With",3
+2014,Property Damage Accident,19:08,11/05/2014,Wednesday,Y,Dark-Road Unlighted,ARCADIA,OTHER,WAYNE,Straight and Level,Clear,None,Dry,88 37021062,Not Applicable,Deer,1
+2014,Property Damage Accident,15:30,12/08/2014,Monday,Y,Daylight,DEPEW,RIGHT ANGLE,ERIE,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,6:30,11/05/2014,Wednesday,Y,Dawn,ULYSSES,OTHER,TOMPKINS,Straight and Level,Cloudy,None,Wet,89 36012041,Not Applicable,Deer,1
+2014,Injury Accident,21:05,10/30/2014,Thursday,Y,Dark-Road Lighted,FREEPORT,OTHER,NASSAU,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other*, Non-Collision",1
+2014,Property Damage Accident,14:50,05/22/2014,Thursday,Y,Daylight,BRONX,Unknown,BRONX,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,14:48,09/27/2014,Saturday,Y,Daylight,LINDENHURST,Unknown,SUFFOLK,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,17:25,06/30/2014,Monday,Y,Daylight,NORTH HEMPSTEAD,OVERTAKING,NASSAU,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,9:00,03/03/2014,Monday,Y,Daylight,DOBBS FERRY,OVERTAKING,WESTCHESTER,Straight and Grade,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,15:45,11/03/2014,Monday,Y,Daylight,ROCHESTER,RIGHT ANGLE,MONROE,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,0:00,04/04/2014,Friday,N,Daylight,BRONX,OVERTAKING,BRONX,Curve and Level,Rain,None,Wet,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,19:00,09/02/2014,Tuesday,Y,Daylight,KINGS,REAR END,KINGS,Straight and Level,Clear,None,Dry,907CX2M13095,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,21:35,05/30/2014,Friday,Y,Dark-Road Lighted,HEMPSTEAD,OTHER,NASSAU,Straight and Level,Cloudy,Traffic Signal,Wet,,"Crossing, With Signal","Bicyclist, Collision With",1
+2014,Property Damage Accident,15:00,05/12/2014,Monday,N,Daylight,CLAY,OVERTAKING,ONONDAGA,Straight and Grade,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,7:06,10/10/2014,Friday,Y,Dawn,ELLERY,OTHER,CHAUTAUQUA,Straight and Level,Clear,No Passing Zone,Dry,17 52011221,Not Applicable,Deer,1
+2014,Property Damage Accident,12:10,10/18/2014,Saturday,Y,Daylight,BROOKHAVEN,RIGHT ANGLE,SUFFOLK,Curve and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,13:00,06/17/2014,Tuesday,N,Daylight,BRONX,Unknown,BRONX,Straight at Hill Crest,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,0:00,09/10/2014,Wednesday,N,Unknown,ISLIP,Unknown,SUFFOLK,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,7:00,10/07/2014,Tuesday,Y,Dawn,CATSKILL,OTHER,GREENE,Straight and Level,Cloudy,No Passing Zone,Wet,,Not Applicable,"Animal, Collision With",1
+2014,Property Damage Accident,20:55,04/30/2014,Wednesday,N,Unknown,NEW YORK,Unknown,NEW YORK,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,12:40,03/13/2014,Thursday,Y,Daylight,OYSTER BAY,REAR END,NASSAU,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,16:00,06/02/2014,Monday,Y,Daylight,BROOKHAVEN,SIDESWIPE,SUFFOLK,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,17:28,12/13/2014,Saturday,Y,Dark-Road Unlighted,STANFORD,OTHER,DUTCHESS,Straight and Level,Clear,None,Dry,82 82011316,Not Applicable,Deer,1
+2014,Injury Accident,12:45,04/11/2014,Friday,Y,Daylight,BABYLON,REAR END,SUFFOLK,Straight and Level,Clear,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,20:12,03/24/2014,Monday,Y,Dark-Road Unlighted,SCRIBA,OTHER,OSWEGO,Straight and Level,Clear,None,Dry,,Not Applicable,Deer,1
+2014,Injury Accident,17:15,03/13/2014,Thursday,Y,Daylight,NEW YORK,OTHER,NEW YORK,Straight and Level,Clear,None,Dry,,"Crossing, No Signal or Crosswalk","Pedestrian, Collision With",1
+2014,Property Damage Accident,17:30,10/31/2014,Friday,Y,Daylight,NIAGARA,LEFT TURN (3),NIAGARA,Straight and Level,Rain,None,Wet,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,2:30,06/07/2014,Saturday,Y,Dark-Road Unlighted,LOCKE,OTHER,CAYUGA,Straight and Level,Clear,None,Dry,38 31041016,Not Applicable,Deer,1
+2014,Property Damage & Injury Accident,18:41,07/06/2014,Sunday,Y,Daylight,BINGHAMTON,REAR END,BROOME,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,19:55,03/07/2014,Friday,Y,Dark-Road Lighted,KINGS,REAR END,KINGS,Straight and Level,Cloudy,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,9:18,07/24/2014,Thursday,Y,Daylight,RAMAPO,OTHER,ROCKLAND,Straight and Level,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,15:10,10/27/2014,Monday,Y,Daylight,KINGS,REAR END,KINGS,Straight and Level,Clear,Unknown,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,1:31,05/26/2014,Monday,Y,Dark-Road Lighted,ROCHESTER,OTHER,MONROE,Straight and Level,Clear,Other,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",3
+2014,Injury Accident,12:40,05/20/2014,Tuesday,N,Unknown,NEW YORK,OTHER,NEW YORK,Unknown,Unknown,Unknown,Unknown,,Unknown,"Pedestrian, Collision With",1
+2014,Injury Accident,17:40,09/23/2014,Tuesday,Y,Daylight,QUEENS,Unknown,QUEENS,Straight and Grade,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,7:47,04/26/2014,Saturday,Y,Daylight,BRONX,REAR END,BRONX,Straight and Level,Clear,None,Wet,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage & Injury Accident,14:45,02/13/2014,Thursday,Y,Daylight,HANCOCK,OTHER,DELAWARE,Curve and Level,Snow,None,Snow/Ice,17 93081125,Not Applicable,"Guide Rail - Not At End, Collision With Fixed Object",1
+2014,Injury Accident,7:00,07/18/2014,Friday,Y,Daylight,KINGS,OTHER,KINGS,Curve and Level,Clear,Traffic Signal,Dry,,"Crossing, With Signal","Pedestrian, Collision With",1
+2014,Property Damage Accident,13:00,03/15/2014,Saturday,N,Unknown,,Unknown,UNKNOWN,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,11:35,04/15/2014,Tuesday,Y,Daylight,NEW YORK,OTHER,NEW YORK,Straight and Level,Clear,None,Wet,,"Crossing, No Signal or Crosswalk","Pedestrian, Collision With",1
+2014,Property Damage Accident,14:30,07/17/2014,Thursday,Y,Daylight,,SIDESWIPE,ROCKLAND,Straight and Grade,Cloudy,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,16:53,08/11/2014,Monday,Y,Daylight,ROSLYN,RIGHT ANGLE,NASSAU,Straight and Grade,Clear,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage & Injury Accident,17:39,07/15/2014,Tuesday,Y,Daylight,POMONA,OTHER,ROCKLAND,Straight and Level,Cloudy,Stop Sign,Dry,,Not Applicable,"Tree, Collision With Fixed Object",1
+2014,Injury Accident,8:05,02/03/2014,Monday,Y,Daylight,KINGS,OTHER,KINGS,Straight and Level,Snow,Traffic Signal,Slush,,Not Applicable,"Other Motor Vehicle, Collision With",3
+2014,Property Damage & Injury Accident,7:22,01/16/2014,Thursday,Y,Dawn,BALLSTON,OTHER,SARATOGA,Straight and Grade,Snow,None,Wet,67 15031142,Not Applicable,"Other Fixed Object*, Collision With Fixed Object",1
+2014,Property Damage Accident,14:34,07/13/2014,Sunday,N,Daylight,KINGS,REAR END,KINGS,Straight and Level,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,19:25,09/20/2014,Saturday,N,Unknown,NEW YORK,REAR END,NEW YORK,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,8:48,02/24/2014,Monday,Y,Daylight,PHELPS,REAR END,ONTARIO,Curve and Grade,Snow,None,Wet,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,9:10,10/12/2014,Sunday,N,Daylight,WEST UNION,OTHER,STEUBEN,Straight and Level,Clear,None,Dry,,Not Applicable,"Building/Wall, Collision With Fixed Object",1
+2014,Property Damage Accident,16:25,02/23/2014,Sunday,Y,Daylight,CLAY,REAR END,ONONDAGA,Straight and Level,Clear,None,Dry,31 33091206,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,12:50,07/03/2014,Thursday,Y,Daylight,ELMIRA,RIGHT ANGLE,CHEMUNG,Straight and Level,Clear,Stop Sign,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage & Injury Accident,18:19,08/21/2014,Thursday,Y,Daylight,CHEEKTOWAGA,HEAD ON,ERIE,Straight and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,20:17,04/12/2014,Saturday,Y,Dark-Road Unlighted,WEST TURIN,OTHER,LEWIS,Straight and Grade,Clear,None,Dry,26 74061095,Not Applicable,Deer,1
+2014,Injury Accident,20:30,10/29/2014,Wednesday,Y,Dark-Road Lighted,CEDARHURST,OTHER,NASSAU,Straight and Level,Rain,None,Wet,,"Crossing, No Signal or Crosswalk","Pedestrian, Collision With",1
+2014,Injury Accident,16:20,04/08/2014,Tuesday,Y,Daylight,BROOKHAVEN,OTHER,SUFFOLK,Straight and Level,Clear,None,Dry,,Going to/From Stopped School Bus,"Pedestrian, Collision With",1
+2014,Injury Accident,10:45,08/18/2014,Monday,Y,Daylight,SOUTHEAST,REAR END,PUTNAM,Curve and Level,Clear,None,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Injury Accident,19:20,11/30/2014,Sunday,Y,Dark-Road Lighted,QUEENS,REAR END,QUEENS,Straight and Level,Clear,Traffic Signal,Dry,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,15:30,02/28/2014,Friday,N,Unknown,BRONX,Unknown,BRONX,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
+2014,Property Damage Accident,16:00,05/13/2014,Tuesday,N,Unknown,KINGS,LEFT TURN (3),KINGS,Unknown,Unknown,Unknown,Unknown,,Not Applicable,"Other Motor Vehicle, Collision With",2
