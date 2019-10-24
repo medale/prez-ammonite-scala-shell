@@ -48,8 +48,12 @@
 * Open https://github.com/lihaoyi/Ammonite/releases
 
 # Other ways of installing Ammonite
+* `curl`
+* `brew install ammonite-repl`
 
 # Configure the shell ~/.ammonite/predef.sc
+* Download from https://github.com/lihaoyi/Ammonite/
+shell/src/main/resources/ammonite/shell/example-predef.sc
 
 # Major improvements over Scala REPL
 * open Scala REPL and Ammonite
@@ -159,6 +163,8 @@ root/'tmp/'rest
 * `mv(src,dest)`
 * `mkdir! newDirPath` - Bash: `mkdir -p newDir`
 * `stat! filePath`
+* `ls!, cd! root <TAB>`
+* `os.symlink/hardlink`
 
 # read and write
 * `write` https://github.com/lihaoyi/os-lib/blob/master/os/src/os/Source.scala
@@ -169,6 +175,8 @@ val in = read.getInputStream("CommonImports.sc")
 
 import $ivy.`com.typesafe.akka::akka-http:10.1.9`
 val app = read(resource / "reference.conf")
+write("defaults.conf", app) //also input stream, byte array
+//write.over
 ```
 
 # Spawning subprocesses

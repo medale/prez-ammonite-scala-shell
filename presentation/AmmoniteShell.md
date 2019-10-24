@@ -175,6 +175,7 @@ import $ivy.`com.univocity:univocity-parsers:2.8.3`
 * `repl.imports` - user imports only
 * `repl.fullImports` - also shows Ammonite imports
 * `repl.clipboard.read/write`
+* `repl.sess.save/load`
 
 # interp object
 
@@ -213,16 +214,19 @@ desugar(ls! "lib")
 * `mv(src,dest)`
 * `mkdir! newDirPath` - Bash: `mkdir -p newDir`
 * `stat! filePath`
+* ls!, cd! root <TAB> - shows all possible paths under / 
 
 # read and write
 
 ```scala
 val imports = read("CommonImports.sc")
 val lines = read.lines("CommonImports.sc")
-val in = read.getInputStream("CommonImports.sc") 
+val in = read.getInputStream("CommonImports.sc")
 
 import $ivy.`com.typesafe.akka::akka-http:10.1.9`
 val app = read(resource / "reference.conf")
+
+write("defaults.conf", app)
 ```
 
 # Spawning subprocesses
