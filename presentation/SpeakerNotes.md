@@ -108,6 +108,10 @@ repl.fullImports   //also Ammonite imports
 repl.clipboard.read/write
 
 repl.clipboard.write("Hello from Ammonite")
+
+repl.sess.save("clean")
+repl.sess.load("clean")
+
 ```
 
 # interp object
@@ -156,9 +160,37 @@ root/'tmp/'rest
 * `mkdir! newDirPath` - Bash: `mkdir -p newDir`
 * `stat! filePath`
 
+# read and write
+* `write` https://github.com/lihaoyi/os-lib/blob/master/os/src/os/Source.scala
+```scala
+val imports = read("CommonImports.sc")
+val lines = read.lines("CommonImports.sc")
+val in = read.getInputStream("CommonImports.sc")
+
+import $ivy.`com.typesafe.akka::akka-http:10.1.9`
+val app = read(resource / "reference.conf")
+```
+
+# Spawning subprocesses
+
+```scala
+ %git 'status
+ %git("status", "--help")
+ %%git("status", "--help")
+```
+
 # Pipes and grep!
 
 ```scala
+ls! wd | grep! ".*\\.sc".r //error two implicits
+def isFile(f: Path) = f.isFile
+val allFiles = ls.rec! wd |? isFile | read
+browse(allFiles)
+//flatMap - Seq[GrepResult]
+ls! wd || grep! ".*\\.sc".r
+//filter - Seq[Path] implicit to Boolean
+ls! wd |? grep! ".*\\.sc".r
+
 def sum(a: Int, b: Int) = a + b
 List(1,2,3) |& sum
 

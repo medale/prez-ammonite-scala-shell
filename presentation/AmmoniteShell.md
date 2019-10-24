@@ -96,7 +96,7 @@ sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L \ https://github.com/lihaoyi/Am
 * Windows: `https://github.com/lihaoyi/Ammonite/issues/119`
 
 # Configure the shell ~/.ammonite/predef.sc
-* Ammonite source: https://github.com/lihaoyi/Ammonite
+* Ammonite source: `https://github.com/lihaoyi/Ammonite`
 * \small `shell/src/main/resources/ammonite/shell/example-predef.sc`
 
 \scriptsize
@@ -213,6 +213,17 @@ desugar(ls! "lib")
 * `mv(src,dest)`
 * `mkdir! newDirPath` - Bash: `mkdir -p newDir`
 * `stat! filePath`
+
+# read and write
+
+```scala
+val imports = read("CommonImports.sc")
+val lines = read.lines("CommonImports.sc")
+val in = read.getInputStream("CommonImports.sc") 
+
+import $ivy.`com.typesafe.akka::akka-http:10.1.9`
+val app = read(resource / "reference.conf")
+```
 
 # Spawning subprocesses
 * Print output to console: `%`
