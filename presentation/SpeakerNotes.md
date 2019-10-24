@@ -58,7 +58,7 @@
 * multi-line editing (up arrow and search)
 * Classpath search: `StandardCharsets<TAB>` (if not imported yet but on classpath)
 
-# Importing functionality from scripts
+# Magic import `$file`: Importing scripts
 ```scala
 import $file.CommonImports
 CommonImports.printCwd //accesses Paths OK
@@ -74,7 +74,7 @@ import $file.^.print
 print.message()
 ```
 
-# exec - bring in the defs and imports
+# Magic import `$exec`: Bring in the defs AND imports
 *  all definitions AND import statements
 
 ```scala
@@ -84,4 +84,101 @@ import $exec.CommonImports
 Paths.get("foo")
 import CommonImports._
 printWithNewlines(List(1,2,3))
+```
+# Magic import `$ivy`: Download libraries and their dependencies
+
+```scala
+import $ivy.`com.univocity:<TAB>`          
+
+import $ivy.`com.univocity:univocity-parsers:<TAB>`
+
+import $ivy.`com.univocity:univocity-parsers:2.8.3`
+
+CsvParser<TAB>
+import com.univocity.parsers.csv.CsvParser
+...
+```
+# repl object
+
+```scala
+
+repl.imports       //user imports only
+repl.fullImports   //also Ammonite imports
+
+repl.clipboard.read/write
+
+repl.clipboard.write("Hello from Ammonite")
+```
+
+# interp object
+
+```scala
+interp.load.cp('lib/"baz.jar")
+
+import foo.bar.Baz
+Baz.VeryImportantNumber
+
+source(Baz)
+
+import java.net.URL
+
+source(URL) //no - has to be object
+
+source(new URL("http://foo.bar"))
+```
+
+# Paths - Path vs. RelPath
+
+```scala
+Path("/tmp")
+RelPath("lib")
+Path("temp")
+RelPath("/lib")
+
+val dir = "/tmp/rest"
+ls! dir //no
+Path("/tmp/rest")
+root/'tmp/'rest
+```
+
+# Special path variables
+* `home` - `$HOME or user.home`
+* `root` - `ls! root` == Bash: `ls /`
+* `pwd` - `sys.props("user.dir")` //does not change
+* `wd` - changes with cd! command
+* `up` - `..` in path, e.g. `root/'tmp/up` == `root`
+
+# Ops on paths
+* `ls!` == `ls! wd` == `ls(wd)`
+* `rm! dir` - Bash: `rm -R dir`
+* `cp(src,dest)`
+* `mv(src,dest)`
+* `mkdir! newDirPath` - Bash: `mkdir -p newDir`
+* `stat! filePath`
+
+# Pipes and grep!
+
+```scala
+def sum(a: Int, b: Int) = a + b
+List(1,2,3) |& sum
+
+ls! wd |? grep! "foo|bar".r
+```
+
+# Built-in libraries: upickle and requests-scala
+
+```scala
+//val idStr = read('input / "ids.json")
+//val lines = idsStr.split("\n")
+val lines = read.lines('input / "ids.json")
+val jsons = lines.map { l =>
+   ujson.read(l)
+}
+jsons.foreach { obj =>
+  obj("source") = ujson.Str("asymmetrik")
+  obj("dest") = ujson.Num(42)
+} 
+jsons.foreach { obj =>
+   obj.obj.remove("dest")
+}
 ```

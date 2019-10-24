@@ -123,7 +123,7 @@ ammonite.shell.Configure(interp, repl, wd)
 * statement history search (by word/prefix + up arrow)
 * Classpath search
 
-# Importing scripts
+# Magic import `$file`: Importing scripts
 *  vals, function defs, classes, objects or traits (not import statements)
 
 ```scala
@@ -134,8 +134,7 @@ import $file.scripts.Utils  //in subdir scripts
 import $file.^.print        //in parent dir
 ```
 
-# exec - bring in the defs and imports
-*  all definitions AND import statements
+# Magic import `$exec`: Bring in the defs AND imports
 
 ```scala
 //contains: import java.nio.file._
@@ -146,13 +145,86 @@ import CommonImports._
 printWithNewlines(List(1,2,3))
 ```
 
-# Directories
-```scala
-val wd = pwd
-cd! wd / up
-cd(wd/up)
+# Magic import `$ivy`: Download libraries and their dependencies
 
+```scala
+import $ivy.`com.univocity:<TAB>`
+`com.univocity:univocity-api               
+`com.univocity:univocity-parsers
+`com.univocity:univocity-common-api                   
+`com.univocity:univocity-common-parser-api             
+
+import $ivy.`com.univocity:univocity-parsers:<TAB>`
+`com.univocity:univocity-parsers:1.0.0
+`com.univocity:univocity-parsers:1.5.2  
+`com.univocity:univocity-parsers:2.3.1
+
+import $ivy.`com.univocity:univocity-parsers:2.8.3`
 ```
+
+# repl object
+
+* `repl.imports` - user imports only
+* `repl.fullImports` - also shows Ammonite imports
+* `repl.clipboard.read/write`
+
+# interp object
+
+* `interp.load.cp('lib/"baz.jar")` - load a jar from file system
+
+# Paths - Path vs. RelPath
+
+```scala
+Path("/tmp")
+res27: Path = root/'tmp
+
+RelPath("lib")
+res28: RelPath = 'lib
+
+RelPath("/lib")
+IllegalArgumentException: /lib is not an relative path
+
+Path("temp")
+IllegalArgumentException: temp is not an absolute path
+
+ls! "lib"
+desugar(ls! "lib")
+```
+
+# Special path variables
+* `home` - `$HOME or user.home`
+* `root` - `ls! root` == Bash: `ls /`
+* `pwd` - `sys.props("user.dir")` //does not change
+* `wd` - changes with cd! command
+* `up` - `..` in path, e.g. `root/'tmp/up` == `root`
+
+# Ops on paths
+* `ls!` == `ls! wd` == `ls(wd)`
+* `rm! dir` - Bash: `rm -R dir`
+* `cp(src,dest)`
+* `mv(src,dest)`
+* `mkdir! newDirPath` - Bash: `mkdir -p newDir`
+* `stat! filePath`
+
+# Spawning subprocesses
+* Print output to console: `%`
+     * `%git 'status`
+     * `%git Seq("status", "--help")`
+* Output to `CommandResult` object: `%%`
+     * `cmdRes.exitCode`, `.out`, `.err`
+
+# Pipes and grep!
+* `|` - map
+* `||` - flatMap
+* `|?` - filter
+* `|&` - reduce
+* `|!` - foreach
+* `ls! wd |? grep! "[Ff]oo".r`
+
+
+# Built-in libraries: upickle and requests-scala
+* upickle - JSON and serialization/deserialization
+* requests-scala - HTTP/S REST calls
 
 # And now for something completely different: Colon Cancer
 * Screening saves lives! ![](graphics/Chemo.png){width=100px}
