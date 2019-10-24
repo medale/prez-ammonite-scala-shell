@@ -168,17 +168,23 @@ ls! wd |? grep! "foo|bar".r
 # Built-in libraries: upickle and requests-scala
 
 ```scala
-//val idStr = read('input / "ids.json")
-//val lines = idsStr.split("\n")
-val lines = read.lines('input / "ids.json")
+val lines =
+  read.lines('input / "ids.json", StandardCharsets.UTF_8)
 val jsons = lines.map { l =>
    ujson.read(l)
 }
 jsons.foreach { obj =>
   obj("source") = ujson.Str("asymmetrik")
   obj("dest") = ujson.Num(42)
-} 
+}
 jsons.foreach { obj =>
    obj.obj.remove("dest")
 }
+val response = requests.post("http://httpbin.org/post",
+   headers = Map("accept"->"application/json"),
+   data = ujson.write(ujson.Obj("fp" -> "map")))
 ```
+
+# Demos
+* WikipediaVocab.sc
+* Spreadsheet.sc

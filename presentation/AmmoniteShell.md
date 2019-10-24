@@ -116,6 +116,14 @@ ammonite.shell.Configure(interp, repl, wd)
 ```
 \normalsize
 
+# Running Ammonite with extra memory
+
+```bash
+amm
+
+JAVA_OPTS=-Xmx10g; amm
+```
+
 # Major improvements over Scala REPL
 * input and output code syntax highlighting
 * output valid Scala code
@@ -209,7 +217,7 @@ desugar(ls! "lib")
 # Spawning subprocesses
 * Print output to console: `%`
      * `%git 'status`
-     * `%git Seq("status", "--help")`
+     * `%git("status", "--help")`
 * Output to `CommandResult` object: `%%`
      * `cmdRes.exitCode`, `.out`, `.err`
 
@@ -221,10 +229,13 @@ desugar(ls! "lib")
 * `|!` - foreach
 * `ls! wd |? grep! "[Ff]oo".r`
 
-
 # Built-in libraries: upickle and requests-scala
 * upickle - JSON and serialization/deserialization
 * requests-scala - HTTP/S REST calls
+
+# Demos
+* WikipediaVocab.sc
+* Spreadsheet.sc
 
 # And now for something completely different: Colon Cancer
 * Screening saves lives! ![](graphics/Chemo.png){width=100px}
@@ -233,29 +244,6 @@ desugar(ls! "lib")
 * [Colorectal Cancer Alliance](https://www.ccalliance.org/)
 * [Ora Lee Smith Cancer Research Foundation](https://oralee.org)
 
-# Running Ammonite with extra memory
-
-```bash
-JAVA_OPTS=-Xmx10g; amm211
-```
-
-# A better Scala shell - Pretty printing
-
-```
-
-```
-
-# Loading libraries
-
-```
-import $ivy.`org.jsoup:jsoup:1.12.1`
-import org.jsoup._
-
-val doc = Jsoup.connect("https://en.wikipedia.org/wiki/Marine_debris").get
-doc.select(".mw-headline")
-
-show(doc.select(".mw-headline"))
-```
 # Questions?
 
 ![](graphics/Farley.png){width=200px}
